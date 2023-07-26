@@ -138,8 +138,8 @@ jekyll_compose:
 以下也会自动添加
 - date属性下的创建时间戳
 - title属性下标题属性
-对于集合，你使用`default_front_matter`添加默认的元数据到新创建的集合文件中，集合名称作为配置键，例如集合的`things`
 
+对于集合，你使用`default_front_matter`添加默认的元数据到新创建的集合文件中，集合名称作为配置键，例如集合的`things`
 ```
 jekyll_compose:
   default_front_matter:
