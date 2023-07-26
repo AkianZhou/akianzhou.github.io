@@ -5,7 +5,7 @@ date: 2023-07-18 20:17 +0800
 ---
 # Jekyll::Compose
 ---
-使用命令简化Jekyll写作
+使用一些命令简化Jekyll写作
 ## 安装
 ---
 在你应用程序的Gemfile文件添加此行命令：
@@ -20,6 +20,7 @@ $ bundle
 ```
 
 ## 用法
+---
 安装后（见上文），运行`bundle exec jekyll help`，你能看到：
 帮助中将会列出可用的新命令：
 ```
@@ -138,6 +139,7 @@ jekyll_compose:
 - date属性下的创建时间戳
 - title属性下标题属性
 对于集合，你使用`default_front_matter`添加默认的元数据到新创建的集合文件中，集合名称作为配置键，例如集合的`things`
+
 ```
 jekyll_compose:
   default_front_matter:
