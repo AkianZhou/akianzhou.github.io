@@ -54,3 +54,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  new_posts:
+    output: true
+    permalink: /new_posts/:title
